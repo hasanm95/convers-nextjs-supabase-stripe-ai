@@ -1,5 +1,6 @@
 import CompanionCard from "@/components/companion-card";
 import CompanionsList from "@/components/companion-list";
+import CTA from "@/components/cta";
 import { recentSessions } from "@/constants";
 import { getSubjectColor } from "@/lib/utils";
 
@@ -33,6 +34,7 @@ const Page = async () => {
           ]}
           classNames="w-2/3 max-lg:w-full"
         />
+        <CTA />
       </section>
     </main>
   );
